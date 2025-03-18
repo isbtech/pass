@@ -1,0 +1,2 @@
+[18-Mar-2025 15:07:59 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/passrevivalworks/public_html/audio-access-api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php on line 631
+[18-Mar-2025 15:32:25 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/passrevivalworks/public_html/audio-access-api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php on line 631
