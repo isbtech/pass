@@ -1,0 +1,14 @@
+# Protect admin directory
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /admin/
+    
+    # Ensure proper file extensions
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^\.]+)$ $1.php [L]
+</IfModule>
+
+# Prevent directory listing
+Options -Indexes

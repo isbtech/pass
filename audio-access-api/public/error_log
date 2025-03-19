@@ -1,2 +1,0 @@
-[18-Mar-2025 15:31:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.0.30. in /home/passrevivalworks/public_html/audio-access-api/vendor/composer/platform_check.php on line 24
-[18-Mar-2025 15:32:04 UTC] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home/passrevivalworks/public_html/audio-access-api/vendor/laravel/framework/src/Illuminate/Log/LogManager.php on line 631
